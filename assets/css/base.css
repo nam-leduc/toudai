@@ -1,0 +1,33 @@
+:root {
+    --background-color: #fafafa;
+    --font-family: 'Roboto', sans-serif;
+}
+
+* {
+    box-sizing: inherit;
+    /* outline: 1px solid limegreen !important; */
+    /* background: rgb(0 100 0 / 0.1) !important; */
+}
+
+html {
+    font-size: 100%;
+    line-height: 1.6rem;
+    font-family: var(--font-family);
+    box-sizing: border-box;
+    background-color: var(--background-color);
+}
+
+.grid {
+    width: 800px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.grid__full-width {
+    width: 100%;
+}
+
+.grid__row {
+    display: flex;
+    flex-wrap: wrap;
+}
